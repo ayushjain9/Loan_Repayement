@@ -45,3 +45,4 @@ False Negatives are a lot more expensive than False Positives
 * Python - 3.7
 * Packages - Pandas, Numpy, Sklearn
 * Kaggle: https://www.kaggle.com/wordsforthewise/lending-club
+* MarkDown CheatSheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
