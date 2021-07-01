@@ -13,12 +13,15 @@ Data set is pretty imbalanced as expected where positive examples (“not paid f
 ![alt text](https://github.com/ayushjain9/Loan_Repayement/blob/master/Loan_status.png)
 
 Installment and loan_amnt has perfect correlation
+![alt text](https://github.com/ayushjain9/Loan_Repayement/blob/master/Correlation.png)
 
 # Feature Engineering
 * Missing data should be either removed or filled.
 * Removing similar one of the column such as 'purpose' and 'title' have same description.
+* ![alt text](https://github.com/ayushjain9/Loan_Repayement/blob/master/Column.PNG)
 * Filled the missing value of mort_acc with mean of total_acc.
 * Converting categorical variable to dummy variables.
+* ![alt text](https://github.com/ayushjain9/Loan_Repayement/blob/master/Subgrade.png)
 * Column with zipcode and address converted trimmed to pincode and then to dummy variable.
 * Issue date removed as we need to predict loan_status before issue of loan.
 
@@ -32,12 +35,12 @@ Model I tried:
 
 # Model performance
 ANN gives higher accuracy score  which is 90%.
-
+![alt text](https://github.com/ayushjain9/Loan_Repayement/blob/master/Report.PNG)
 # Conclusion
 There is no definitive guide of which algorithms to use in an imbalanced data situation. What may work on some data sets may not necessarily work on others. Therefore, always evaluate methods using cross validation to get a reliable estimates.
 False Negatives are a lot more expensive than False Positives
 
 # References
-Python - 3.7
-Packages - Pandas, Numpy, Sklearn
-Kaggle: https://www.kaggle.com/wordsforthewise/lending-club
+* Python - 3.7
+* Packages - Pandas, Numpy, Sklearn
+* Kaggle: https://www.kaggle.com/wordsforthewise/lending-club
