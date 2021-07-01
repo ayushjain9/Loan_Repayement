@@ -10,7 +10,7 @@ Classification metrics will be used when evaluating the performance of our model
 
 # Exploratoy Data Analysis
 Data set is pretty imbalanced as expected where positive examples (“not paid fully”) are only 20%.
-
+![alt text](https://github.com/ayushjain9/Loan_Repayement/blob/master/Loan_status.png)
 
 Installment and loan_amnt has perfect correlation
 
@@ -36,3 +36,8 @@ ANN gives higher accuracy score  which is 90%.
 # Conclusion
 There is no definitive guide of which algorithms to use in an imbalanced data situation. What may work on some data sets may not necessarily work on others. Therefore, always evaluate methods using cross validation to get a reliable estimates.
 False Negatives are a lot more expensive than False Positives
+
+# References
+Python - 3.7
+Packages - Pandas, Numpy, Sklearn
+Kaggle: https://www.kaggle.com/wordsforthewise/lending-club
